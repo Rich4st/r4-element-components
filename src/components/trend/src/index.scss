@@ -1,0 +1,11 @@
+.trend {
+  display: flex;
+  align-items: center;
+  .text {
+    margin-right: 4px;
+  }
+}
+:deep(svg) {
+  width: 1em;
+  height: 1em;
+}

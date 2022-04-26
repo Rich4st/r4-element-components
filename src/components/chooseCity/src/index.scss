@@ -1,0 +1,53 @@
+
+.city-wrap {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.content {
+  padding: 6px;
+}
+::v-deep(.el-icon){
+  width: 2em;
+  height: 2em;
+}
+svg{
+  width: 1em;
+  height: 1em;
+  position: relative;
+  margin-left: 4px;
+  top: 2px;
+  transition: all .25s linear;
+}
+// 控制箭头旋转
+.rotate {
+  transform: rotate(180deg);
+}
+
+.city,.province {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .city-item,.province-item{
+    padding: 3px 6px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    margin-right: 6px;
+    border-radius: 2px;
+  }
+  &-item:hover{
+    background-color: #409EFF;
+    cursor: pointer;
+  }
+}
+.city-name, .province-name {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  .city-name-item, .province-name-item {
+    margin-right: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+}

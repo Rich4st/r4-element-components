@@ -1,0 +1,11 @@
+{
+  "name": "r4-element-components",
+  "version": "1.0.0",
+  "main": "index.umd.js",
+  "module": "index.es.js",
+  "types": "index.d.ts",
+  "author": {
+    "name": "rich4st"
+  },
+  "keywords": ["element-plus","ts","二次封装","封装组件","vue-components"]
+}
